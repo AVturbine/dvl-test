@@ -1,5 +1,5 @@
 # dvl-test
-Firmware for communicating with teledyne dvl
+AVR driver for Teledyne Explorer DVL
 
 This is an API for communicating between an AVR microcontroller and a Teledyne Explorer DVL. It fetches high-resolution velocity data from a DVL connected over UART1
 (in our case, on an ATMega2560 development board, pins 19 and 18 were our rx and tx). Modify initialization commands in `include/dvl/dvl_commands.h` to change the sensor and environment parameters.
